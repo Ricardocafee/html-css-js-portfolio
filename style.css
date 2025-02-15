@@ -473,6 +473,8 @@ section {
   justify-content: space-around;
 }
 
+
+
 article {
   display: flex;
   width: 10rem;
@@ -488,6 +490,7 @@ article .icon {
   position: relative;
   max-width: 1200px;
   margin: 40px auto;
+  margin-bottom: 20px;
 }
 
 .margin-container-left{
@@ -663,6 +666,13 @@ article .icon {
   margin-right: 25px;
 }
 }
+
+/* SKILLS SECTION */
+
+#skills {
+  position: relative;
+}
+
 
 /* PROJECTS SECTION */
 
