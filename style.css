@@ -623,7 +623,7 @@ article .icon {
   top: 35px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .timeline{
     margin: 50px auto;
   }
@@ -657,6 +657,11 @@ article .icon {
     border-left: 0;
     left: -15px;
   }
+
+  .margin-container-right{
+  margin-left: 0px; 
+  margin-right: 25px;
+}
 }
 
 /* PROJECTS SECTION */
