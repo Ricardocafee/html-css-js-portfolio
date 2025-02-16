@@ -54,7 +54,18 @@
 }
 }
 
+@media screen and (max-width: 1000px) {
+
+#projects .about-containers {
+    display: flex;  /* Change block to flex */
+    gap: 2rem;  
+    flex-direction: column; /* If you want them stacked */
+  }
+
+}
+
 @media screen and (max-width: 600px) {
+  
   #contact,
   footer {
     height: 40vh;
@@ -127,5 +138,27 @@
 
 #experience, .title {
     margin-bottom: 2rem;
+}
+
+  #text-projects {
+    font-size: smaller;
+  }
+
+  .images-skills {
+    display: flex;  /* Change block to flex */
+    gap: 2rem;  
+    flex-direction: column; /* If you want them stacked */
+  }
+
+  .s1 {
+  width: 150px;
+}
+
+.s2 {
+  width: 120px; 
+}
+
+.s3 {
+  width: 115px;
 }
 }

@@ -682,13 +682,12 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
 }
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
 }
 
 .project-title {
@@ -699,6 +698,32 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.images-skills {
+  display: flex; 
+  gap: 100px; 
+  align-items: center; 
+  justify-content: center; 
+  width: 100%;
+}
+
+.images-styles {
+  text-align: center;
+}
+
+.s1 {
+  width: 210px;
+}
+
+.s2 {
+  width: 160px; 
+  filter: brightness(70%) contrast(70%); 
+  transform: translateY(-15px);
+}
+
+.s3 {
+  width: 155px;
 }
 
 /* CONTACT */
@@ -740,6 +765,38 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+
+/* Modal Overlay (Dark Background) */
+    .modal-overlay {
+        display: none; 
+        position: fixed; 
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(0, 0, 0, 0.9); /* Dark background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    /* Video Container */
+    .modal-content {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Close Button */
+    .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
 
 /* FOOTER SECTION */
 

@@ -257,18 +257,18 @@
       <h1 class="title">Skills</h1>
      <div class="experience-details-container">
              <div class="details-container" style="border: none;">
-             <div style="display: flex; gap: 100px; align-items: center; justify-content: center; width: 100%;">
-              <div style="text-align: center; flex: 1;">
+             <div class="images-skills">
+              <div class="images-styles" style="flex: 1;">
                   <h1>Full-stack</h1>
-                  <img src="./assets/full-stack.jpg" style="width: 210px;">
+                  <img src="./assets/full-stack.jpg" class="s1">
               </div>
-              <div style="text-align: center;">
+              <div class="images-styles">
                   <h1 style="margin-bottom: 40px;">Artificial Intelligence</h1>
-                  <img src="./assets/ai-logo.png" style="width: 160px; filter: brightness(70%) contrast(70%); transform: translateY(-15px);">
+                  <img src="./assets/ai-logo.png" class="s2">
               </div>
-              <div style="text-align: center; flex: 1;">
+              <div class="images-styles" style="flex: 1;">
                   <h1 style="margin-bottom: 25px;">Robotics</h1>
-                  <img src="./assets/robotics-logo.png" style="width: 155px;">
+                  <img src="./assets/robotics-logo.png" class="s3">
               </div>
           </div>
           </div>
@@ -506,50 +506,45 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/bluerov2.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
+            <h2 class="experience-sub-title project-title">Hybrid ROV/AUV Underwater System</h2>
+             <div id="text-projects" style="text-align: left; padding-left: 40px; padding-right: 40px; font-size: larger;">
+              <p>Date: January 2023- June 2023</p>
+             <ul style="margin-top: 20px;">
+        <li style="margin-bottom: 11px;">Funded my thesis titled ‘Hybrid ROV/AUV underwater robotics systems’</li>
+        <li style="margin-bottom: 11px;">Provided mode switching between autonomous and remote modes mid-mission to expand the underwater vehicle’s functionalities and enhance its safety</li>
+        <li style="margin-bottom: 11px;">Introduced wireless virtual tether for tetherless ROV operations</li>
+    </ul>
+  </div>
+            <div class="btn-container" style="margin-top: 30px;">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/dsor-isr/thesis_ricardo_cafe'"
               >
                 Github
               </button>
+              <button class="btn btn-color-2 project-btn" onclick="showVideo()">Video</button>
               <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('./assets/Thesis_IST_Ricardo_Cafe.pdf')"
+          >
+            Document
+          </button>
+            </div>
+            <div id="videoModal" class="modal-overlay">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeVideo()">&times;</span>
+                    <iframe id="videoFrame" width="80%" height="80%" 
+                            src="" frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
+         
           </div>
         </div>
       </div>
