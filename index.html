@@ -81,7 +81,7 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/second_photo.jpg"
             alt="Profile picture"
             class="about-pic"
           />
@@ -482,25 +482,35 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/booking_system.png"
                 alt="Project 1"
-                class="project-img"
+                class="project-img img-1"
+                style="margin-top: 8px; margin-bottom: 10px;"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Local Accomodation Web Application</h2>
+            <div id="text-projects" style="text-align: left; padding-left: 40px; padding-right: 40px; font-size: larger;">
+                        <p>Date: January 2024- At the moment</p>
+                      <ul style="margin-top: 20px;">
+                  <li style="margin-bottom: 11px;">Developed a comprehensive local accommodation booking system to support my family’s business operations</li>
+                  <li style="margin-bottom: 11px;">Implemented the project using the MERN stack (MongoDB, Express, React, Node.js) for a full-stack solution</li>
+                  <li style="margin-bottom: 11px;">Still in progress</li>
+              </ul>
+            </div>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/Ricardocafee/mern-booking-app_new'"
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              <button class="btn btn-color-2 project-btn" onclick="showVideo1()">Video</button>
+            </div>
+             <div id="videoModal1" class="modal-overlay">
+                <div class="modal-content">
+                <span class="close-btn" onclick="closeVideo1()">&times;</span>
+                <div id="videoFrame1"></div> <!-- This will hold the video dynamically -->
+              </div>
             </div>
           </div>
           <div class="details-container color-container">

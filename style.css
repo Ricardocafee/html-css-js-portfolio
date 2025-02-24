@@ -635,7 +635,7 @@ article .icon {
   }
   .container {
     width: 100%;
-    padding-left: 80px;
+    padding-left: 40px;
     padding-right: 25px;
   }
 
@@ -688,6 +688,10 @@ article .icon {
   border-radius: 2rem;
   width: 80%;
   height: 80%;
+}
+
+.img-1 {
+  width: 75%;
 }
 
 .project-title {
